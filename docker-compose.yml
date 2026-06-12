@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  backend:
+    image: deepanshu/multi-agent-backend:v1
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    image: deepanshu/multi-agent-frontend:v1
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend

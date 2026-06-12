@@ -1,0 +1,32 @@
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+langgraph
+
+# Mistral
+mistralai
+
+# Backend
+fastapi
+uvicorn
+pydantic
+
+# Frontend
+streamlit
+
+# Web Scraping
+requests
+beautifulsoup4
+lxml
+
+# Search
+tavily-python
+
+# Environment
+python-dotenv
+
+# Utilities
+rich
+orjson
